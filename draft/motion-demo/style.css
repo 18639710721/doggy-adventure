@@ -1,0 +1,14 @@
+/* 设置canvas水平居中 */
+
+#canvas {
+    border: 1px solid black;
+    /* 根据winddows的内置宽高来设置 */
+    width: 100px;
+    height: 100px;
+    /* 绝对定位 脱离文档流? */
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    /* 截至到当前该canvas的左上角是居中的 */
+    transform: translate(-50%, -50%);
+}   
