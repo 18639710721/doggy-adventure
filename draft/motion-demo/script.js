@@ -21,7 +21,7 @@ function animate() {
     ctx.clearRect(0, 0, CAVANS_WIDTH, CAVANS_HEIGHT);
 
     ctx.fillStyle = "red";
-    ctx.fillRect(x, 0, 10, 10);
+    ctx.fillRect(x, 0, 10, 10);   // 画矩形
 
     ctx.fillStyle = "blue";
     ctx.fillRect(0, y, 10, 10);
